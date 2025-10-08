@@ -6,9 +6,17 @@
       body {
         background-color: black;
         color: white;
-        text-align: center;
         font-family: Arial, sans-serif;
         margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .container {
+        text-align: center;
+        max-width: 600px;
         padding: 20px;
       }
       img {
@@ -17,13 +25,15 @@
     </style>
   </head>
   <body>
-    <h1>I like crocheting.</h1>
-    <p>Damian's a baby...</p>
-    <img src="IMG_6542.png" alt="Test Image" width="300">
+    <div class="container">
+      <h1>I like crocheting.</h1>
+      <p>Damian's a baby...</p>
+      <img src="IMG_6542.png" alt="Test Image" width="300">
 
-    <h1>My name is Julia and I go to pilates.</h1>
-    <h6>I manufacture drugs for a living :)</h6>
+      <h1>My name is Julia and I go to pilates.</h1>
+      <h6>I manufacture drugs for a living :)</h6>
 
-    <p>I hope you had a great day! Keep studying but not too much, don't bore yourself with those books :) - Dame</p>
+      <p>I hope you had a great day! Keep studying but not too much, don't bore yourself with those books :) - Dame</p>
+    </div>
   </body>
 </html>
